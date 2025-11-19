@@ -219,23 +219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51ed722c03b3de642b607919e3d8a22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LeftAction:
-    m_Name: Left
-    m_Type: 1
-    m_ExpectedControlType: Button
-    m_Id: 98599e09-8e15-4994-83bf-7d3b48f7e7be
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: aa7e054d-2a88-426f-9374-94d726f158fa
-      m_Path: <Keyboard>/a
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Left
-      m_Flags: 0
-    m_Flags: 0
   MoveAction:
     m_Name: Move
     m_Type: 0
@@ -325,6 +308,7 @@ MonoBehaviour:
       m_Action: Move
       m_Flags: 8
     m_Flags: 0
+  speed: 10
 --- !u!1 &631245887
 GameObject:
   m_ObjectHideFlags: 0
